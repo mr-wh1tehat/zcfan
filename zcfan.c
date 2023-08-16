@@ -33,9 +33,9 @@ struct Rule {
     const char *name;
 };
 static struct Rule rules[] = {
-    [FAN_MAX] = {7, 90, "maximum"},
-    [FAN_MED] = {4, 80, "medium"},
-    [FAN_LOW] = {1, 70, "low"},
+    [FAN_MAX] = {7, 80, "maximum"},
+    [FAN_MED] = {4, 70, "medium"},
+    [FAN_LOW] = {1, 60, "low"},
     [FAN_OFF] = {0, TEMP_MIN, "off"},
 };
 
