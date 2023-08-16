@@ -59,7 +59,8 @@ Run `make`.
     - At runtime: `rmmod thinkpad_acpi && modprobe thinkpad_acpi fan_control=1`
     - By default: `echo options thinkpad_acpi fan_control=1 > /etc/modprobe.d/99-fancontrol.conf`
 3. Run `zcfan` as root (or use the `zcfan` systemd service provided)
-
+Ps: Or you can simply run 'install.sh' script in order to automate installation process.
+Warning: For the changes to take effect, please reboot your system once installed
 ## Disclaimer
 
 While the author uses this on their own machine, obviously there is no warranty
